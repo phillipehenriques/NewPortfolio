@@ -21,7 +21,7 @@ p {
 
 /* ============= VARIABLES CSS ============= */
 :root {
-  --first-color: rgb(119, 52, 183);
+  --first-color: #D9AA00;
   --color-purple-light: rgb(157, 78, 231);
   --color-white-pink: rgb(223, 168, 255);
   --clean-white-purple: rgb(247, 232, 252);
@@ -89,7 +89,7 @@ p {
 
 /* script js sticky */
 .nav-bar.sticky .logo a span {
-  color: var(--color-white-pink);
+  color: white
 }
 
 .nav-bar .menu li {
