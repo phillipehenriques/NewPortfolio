@@ -19,7 +19,7 @@ $(document).ready(function () {
     strings: [
       'Front End Developer',
       'B2B Marketing Professional',
-      'Content Creator Technology and Accessibility',
+      'Content Creator',
     ],
     typeSpeed: 100,
     backSpeed: 60,
