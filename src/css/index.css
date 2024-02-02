@@ -205,6 +205,10 @@ section {
   padding: 100px 0;
 }
 
+.about-section {
+
+}
+
 .about,
 .services,
 .skills,
@@ -220,9 +224,10 @@ footer {
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content {
+  gap: 20px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: top;
   justify-content: space-between;
 }
 
@@ -273,11 +278,11 @@ section .title::after {
 }
 
 .about .about-content .left img {
-  height:360px;
-  width: 360px;
-  margin-bottom: 100px;
+  height:760px;
+  width: 500px;
   object-fit: cover; 
   border: 1px solid transparent;
+  position: relative;
 }
 
 .about .about-content .right {
@@ -574,6 +579,12 @@ section .title::after {
 
 .portfolio-description {
   margin-bottom: .75rem;
+}
+
+.portfolio-description-about {
+   margin-bottom: .75rem;
+   width: 500px;
+
 }
 
 .portfolio-button {
