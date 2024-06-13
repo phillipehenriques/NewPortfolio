@@ -18,6 +18,10 @@ p {
   font-family: 'Roboto Slab', serif;
 }
 
+a {
+  color: #D9AA00;
+}
+
 
 /* ============= VARIABLES CSS ============= */
 :root {
@@ -34,10 +38,6 @@ p {
   --color-black: rgb(24, 22, 22);
   --color-black-clean: rgb(33, 33, 33);
   
-}
-
-.margin-p {
-  margin-bottom: ;
 }
 
 
