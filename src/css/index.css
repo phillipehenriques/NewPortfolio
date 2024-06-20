@@ -271,7 +271,7 @@ section .title::after {
 
 .about .title::after {
   background: var(--clean-white-purple);
-  content: "xxxxxxxxxxxxxxx";
+  content: "Apresentação";
   white-space: nowrap;
 }
 
@@ -304,12 +304,10 @@ section .title::after {
 }
 
 .about .about-content .right p {
-  text-align: left;
+  text-align: right;
 }
 
-.about .about-content .right p {
-  text-align: left;
-}
+
 
 .about .about-content .right a {
   display: inline-block;
@@ -587,7 +585,7 @@ section .title::after {
 
 .portfolio-description-about {
    margin-bottom: .75rem;
-   width: 500px;
+   width: 380px;
 
 }
 
