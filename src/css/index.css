@@ -19,7 +19,7 @@ p {
 }
 
 a {
-  color: #9d4ee7;
+  color: var(--first-color);
 }
 
 
@@ -270,7 +270,7 @@ section .title::after {
 /************************************************************  AQUI ************************************************************/
 
 .about .title::after {
-  background: var(--clean-white-purple);
+  background: #fff;
   content: "Apresentação";
   white-space: nowrap;
 }
@@ -350,7 +350,7 @@ section .title::after {
 .services .title::after {
   background: var(--color-black);
   content: "o que forneço";
-  color: var(--color-purple-light);
+  color: var(--first-color);
   white-space: nowrap;
 }
 
@@ -390,6 +390,13 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
+.services .serv-content .card .text-t {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--first-color);
+  margin: 10px 0 7px 0;
+}
+
 .services .serv-content .card .box p {
   max-width: 100%;
   color: var(--color-clean-white);
@@ -398,7 +405,7 @@ section .title::after {
 
 /* ============= SKILLS SECTION ============= */
 .skills .title::after {
-  background: var(--clean-white-purple);
+  background: #fff;
   content: "o que eu sei";
   white-space: nowrap;
 }
@@ -485,7 +492,7 @@ section .title::after {
 
 .conquest .title::after {
   content: "certificados";
-  color: var(--color-purple-light);
+  color: var(--first-color);
   background: var(--color-black);
   white-space: nowrap;
 }
@@ -548,7 +555,7 @@ section .title::after {
 
 /* ============= PROJECT SECTION ============= */
 .portfolio .title::after {
-  background: var(--clean-white-purple);
+  background: #fff;
   content: "meu portfólio";
   white-space: nowrap;
 }
