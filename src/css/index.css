@@ -19,14 +19,14 @@ p {
 }
 
 a {
-  color: #D9AA00;
+  color: #9d4ee7;
 }
 
 
 /* ============= VARIABLES CSS ============= */
 :root {
   --first-color: #D9AA00;
-  --color-purple-light: rgb(157, 78, 231);
+  --color-purple-light: #9d4ee7;
   --color-white-pink: rgb(223, 168, 255);
   --clean-white-purple: rgb(247, 232, 252);
   --text-color-light: rgb(134, 122, 159);
